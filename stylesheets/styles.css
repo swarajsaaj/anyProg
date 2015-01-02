@@ -605,7 +605,7 @@ strong {
 }
 
 .wrapper {
-  max-width: 650px;
+  max-width: 1000px;
   margin: 0 auto;
   position: relative;
   padding: 0 20px;
@@ -781,7 +781,7 @@ dt {
 }
 
 section {
-  max-width: 650px;
+  max-width: 1000px;
   padding: 30px 0px 50px 0px;
   margin: 20px 0;
   margin-top: 70px;
@@ -848,4 +848,40 @@ section #title .credits.right {
   nav {
     display: none;
   }
+}
+
+
+.original
+{
+   background: #191919;
+  color: #efefef;
+  margin: 0 4px;
+  padding: 4px 6px;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -o-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -khtml-border-radius: 2px;
+  border-radius: 2px;
+}
+
+.green
+{
+
+  color:#29CC29;
+  font-size: 1.2em;
+
+}
+
+.output
+{
+
+  border:1px solid white;
+     background: #191919;
+  color: #efefef;
+  min-width:425px;
+  min-height:700px;
+  font-size:2em;
+
+  padding: 14px;
 }
