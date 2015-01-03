@@ -50,7 +50,7 @@
 function compile()
 {
 
-
+ try {
   var data=document.getElementById("original").value;
 
   var translated=data.replace(/यदि/g,"if")
@@ -85,7 +85,11 @@ function compile()
 
     //document.getElementById("translated").innerHTML=translated;
      document.getElementById("translated").innerHTML=out;
-
+   }
+  catch(err)
+  {
+    alert("Oops. Please Check. Error in Code: "+err);
+  }
   
 
 }
